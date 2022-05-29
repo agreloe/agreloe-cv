@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './stylesheets/index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// eslint-disable-next-line
+/* const littleCat = `%c \/\\_\/\\\r\n( o.o )\r\n > ^ <`
+const font = `font-family: monospace`
+const signature = 'agreloe'
+console.log(littleCat,font,signature); */
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

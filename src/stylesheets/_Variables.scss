@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+$header1: 5.653rem;
+$header2: 3.998rem;
+$header3: 2.827rem;
+$header4: 1.999rem;
+$header5: 1.414rem;
+$paragraph: 1rem;
+$primaryFont: 'Archivo', sans-serif;
+$padding-size: 2rem 1rem;
+$border: 1px solid white;
+
+@mixin titleConfig {
+    padding: $padding-size;
+    border-bottom: $border;
+}
+
+@mixin large-screen {
+    @media (min-width: 1025px) and (max-width: 1439.98px) {
+        @content;
+    }
+}
+
+@mixin xl-screen {
+    @media (min-width: 1440px) /* and (max-width: 1919.98px) */ {
+        @content;
+    }
+}
+
+@mixin medium-screen {
+    @media (min-width: 768px) and (max-width: 1024.98px) {
+        @content;
+    }
+}
+
+@mixin xxl-screen {
+    @media (min-width: 1920px) {
+        @content;
+    }
+}
+
