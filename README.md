@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Info
 
-This is my resume.
+This is my resume. https://agreloe-cv.netlify.app/
